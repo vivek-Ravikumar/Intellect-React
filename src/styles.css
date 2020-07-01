@@ -2,3 +2,63 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+  display: block;
+  width: 200px;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+i {
+  padding: 5px;
+}
+
+form {
+  width: 40%;
+  margin-right: 30%;
+  margin-left: 600px;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #4caf50;
+}
+
+table {
+  margin-top: 50px;
+  margin-left: 500px;
+  padding: 15px 32px;
+  width: 500px;
+}
